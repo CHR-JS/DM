@@ -1,0 +1,28 @@
+{
+  "name": "DM",
+  "short_name": "DM",
+  "description": "Rencontrez des étudiants qui vous ressemblent",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3F4F6",
+  "theme_color": "#7C3AED",
+  "permissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

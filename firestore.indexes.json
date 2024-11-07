@@ -1,0 +1,22 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "arrayConfig": "CONTAINS" },
+        { "fieldPath": "createdAt", "order": "DESC" }
+      ]
+    },
+    {
+      "collectionGroup": "messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "senderId", "arrayConfig": "CONTAINS" },
+        { "fieldPath": "receiverId", "arrayConfig": "CONTAINS" },
+        { "fieldPath": "createdAt", "order": "ASC" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
